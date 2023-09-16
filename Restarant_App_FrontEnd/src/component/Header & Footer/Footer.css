@@ -1,0 +1,170 @@
+/* .footer {
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+    text-align: center;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    opacity: 0.7;
+    padding: 20px;
+    color: white;
+    /* Add the following properties */
+        /* position: fixed; */
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 999;
+        /* Set a higher z-index to ensure the footer is above other content */
+}
+
+.content {
+    /* Add margin-bottom to create space for the footer */
+    margin-bottom: 60px;
+    /* Adjust the value as needed */
+}
+
+.footer-title {
+    color: #333;
+}
+
+/* .footer-details {
+    margin-top: 10px;
+} */
+
+.footer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-details p {
+    margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+} 
+
+
+
+ /* html,
+ body {
+     height: 100%;
+     margin: 0;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+ .content {
+     flex: 1;
+ }
+
+ .footer {
+     background-color: blueviolet;
+     padding: 20px;
+     color: white;
+     text-align: center;
+     flex-shrink: 0;
+     position: sticky;
+     bottom: 0;
+ }
+
+ .footer-title {
+     color: #333;
+ }
+
+ .footer-details {
+     margin-top: 10px;
+ }
+
+ .footer-details p {
+     margin: 5px 0;
+ } */
+
+ /* Responsive Styles */
+/* @media (max-width: 768px) {
+     .footer {
+         padding: 10px;
+     }
+ } */
+
+
+ /* Footer.css */
+
+ /* .footer {
+     background-color: blueviolet;
+     padding: 20px;
+     color: white;
+     text-align: center;
+     flex-shrink: 0;
+     position: sticky;
+     bottom: 0;
+ }
+
+ .footer-title {
+     color: #333;
+ }
+
+ .footer-details {
+     margin-top: 10px;
+ }
+
+ .footer-details p {
+     margin: 5px 0;
+ }
+
+ /* Responsive Styles */
+ /* @media (max-width: 768px) {
+     .footer {
+         padding: 10px;
+     }
+ } */
+
+
+/* Footer get stick too the bottom */
+
+ /* .footer {
+     background-color: blueviolet;
+     color: white;
+     text-align: center;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+
+ .footer-title {
+     color: #333;
+ }
+
+ .footer-details {
+     margin-top: 10px;
+ }
+
+ .footer-details p {
+     margin: 5px 0;
+ }
+
+ /* Responsive Styles */
+ /* @media (max-width: 768px) {
+     .footer {
+         padding: 10px;
+     }
+ }  */
